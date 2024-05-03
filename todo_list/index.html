@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="list">
+            <h1 class="list-title">List</h1>
+            <div class="content">
+                <ul>
+                    <li class="list-element selected">Example item</li>
+                </ul>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="RemoveAll()">Reset</button>
+            <button class="btn" onclick="RemoveAt()">Remove</button>
+            <button class="btn" onclick="MarkoffSelected()">Mark off</button>
+            <input type="text">
+            <button class="btn" onclick="AddElement()">Add</button> <br>
+        </div>
+        <h1>Cant add empty element</h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
